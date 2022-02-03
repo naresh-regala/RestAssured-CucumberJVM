@@ -7,5 +7,8 @@
 
 ## Find Reports in target folder
 
+ ### To Run on GitHub using GitHub Actions Pipeline
+ - You can run the scripts on github using GitHub Actions. You can find the .yml file in current project .github/workflows
+
 
 
