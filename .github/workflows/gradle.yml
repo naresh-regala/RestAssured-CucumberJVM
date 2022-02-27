@@ -28,4 +28,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew -DbaseURI="https://reqres.in/api" -Dcucumber.filter.tags="@Regression" runCucumberTests
+      run: ./gradlew -DbaseURI="https://reqres.in/api" -Dcucumber.filter.tags="@Regression" runCucumberTests cucumberReports
