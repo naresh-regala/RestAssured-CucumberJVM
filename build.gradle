@@ -12,6 +12,7 @@ buildscript {
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id "com.github.spacialcircumstances.gradle-cucumber-reporting" version "0.1.24"
 }
 
 apply plugin: "com.github.spacialcircumstances.gradle-cucumber-reporting"
